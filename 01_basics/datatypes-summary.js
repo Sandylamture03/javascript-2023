@@ -22,3 +22,50 @@ const myFunction = function(){   // function
 }
 
 console.log(typeof myObj);  // typeOf 
+
+
+
+// Return type of variables in JavaScript  by using typeOf method
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+
+//        Object  =>  object
+
+
+//********************************************************************* */
+// Memory
+
+// stack (primitive), Heap (non-primitive)
+
+let myYoutubeName = "chai aur code";
+let anotherName = myYoutubeName;
+anotherName = "Hitesh choudhari"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne = {
+    name: "sandeep",
+    age: 30,
+    email: "sandy@mi.com"
+}
+
+let userTwo = userOne ;
+
+userTwo.email = "sandeep@tcs.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
