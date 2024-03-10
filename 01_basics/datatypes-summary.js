@@ -51,8 +51,8 @@ let myYoutubeName = "chai aur code";
 let anotherName = myYoutubeName;
 anotherName = "Hitesh choudhari"
 
-console.log(anotherName);
-console.log(myYoutubeName);
+console.log(anotherName); // Hitesh choudhari
+console.log(myYoutubeName); // chai aur code
 
 let userOne = {
     name: "sandeep",
@@ -64,8 +64,8 @@ let userTwo = userOne ;
 
 userTwo.email = "sandeep@tcs.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email); //  sandeep@tcs.com
+console.log(userTwo.email); //  sandeep@tcs.com
 
 
 
